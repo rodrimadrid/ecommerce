@@ -1,5 +1,6 @@
 import {useState} from 'react';
 import {Box,AppBar, Toolbar, IconButton, Typography, Menu, Container, Button, MenuItem} from '@mui/material';
+import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import CartWidget from '../CartWidget/CartWidget';
 
@@ -78,7 +79,7 @@ function Navbar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center"> <Link to={page.route}/>{page.name}</Typography>
                 </MenuItem>
               ))}
             </Menu>
