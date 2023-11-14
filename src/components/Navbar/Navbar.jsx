@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import CartWidget from '../CartWidget/CartWidget';
 
-const pages = ['Productos'];
+const pages = [
+  {name: 'Productos', link: '/'},
+];
 const cartOptions = ['Ver Carrito', 'Vaciar Carrito', 'Realizar Compra', 'Logout'];
 
 function Navbar() {
@@ -29,25 +31,24 @@ function Navbar() {
   return (
     <AppBar position="fixed">
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
-          <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            Led me Be
-          </Typography>
-
+        <Toolbar disableGutters>   
+            <Link to={'/'} > 
+              <Typography
+                variant="h6"
+                noWrap
+                sx={{
+                  mr: 2,
+                  display: { xs: 'none', md: 'flex' },
+                  fontFamily: 'monospace',
+                  fontWeight: 700,
+                  letterSpacing: '.3rem',
+                  color: 'white',
+                  textDecoration: 'none',
+                }}
+              >
+                Ketostyle
+              </Typography>
+          </Link>
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -77,9 +78,11 @@ function Navbar() {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center"> <Link to={page.route}/>{page.name}</Typography>
+              {pages.map((page, i) => (
+                <MenuItem key={`${page}-${i}`} onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center" sx={{ color: 'white' }} >
+                      <Link to={page.link}>{page.name}</Link>
+                    </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -103,14 +106,15 @@ function Navbar() {
             LOGO
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
-              >
-                {page}
-              </Button>
+            {pages.map((page, i) => (
+              <Link     key={`${page}-${i}`} to={page.link}>
+                <Button
+                  key={`${page}btn-${i}`}
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: 'white', display: 'block' }}
+                >{page.name}
+                </Button>
+              </Link>
             ))}
           </Box>
 

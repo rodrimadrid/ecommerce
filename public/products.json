@@ -5,7 +5,8 @@
         "cantidad_en_stock": "25",
         "precio_lista": "6000.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/xilitol_polvo.jpg"
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "cantidad_en_stock": "33",
         "precio_lista": "3280.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/chocolate72%.jpg"
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "cantidad_en_stock": "60",
         "precio_lista": "3440.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/chocolate72%.jpg"
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "cantidad_en_stock": "87",
         "precio_lista": "5515.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/coockies_chocolate.jpg"
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "cantidad_en_stock": "83",
         "precio_lista": "3000.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/coockies_chocolate.jpg"
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "cantidad_en_stock": "95",
         "precio_lista": "8286.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/pan_molde.jpg"
     },
     {
         "id": 7,
@@ -53,7 +59,8 @@
         "cantidad_en_stock": "99",
         "precio_lista": "8693.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/pan_molde.jpg"
     },
     {
         "id": 8,
@@ -61,7 +68,8 @@
         "cantidad_en_stock": "98",
         "precio_lista": "3217.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3
+        "category": 3,
+        "img": "./img/"
     },
     {
         "id": 9,
@@ -69,15 +77,17 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "846.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3
+        "category": 3,
+        "img": "./img/"
     },
     {
         "id": 10,
-        "name": "Bud\u00edn de Manzana Verde",
+        "name": "Budín de Manzana Verde",
         "cantidad_en_stock": "98",
         "precio_lista": "4969.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3
+        "category": 3,
+        "img": "./img/budin_manzana.jpg"
     },
     {
         "id": 11,
@@ -85,7 +95,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "10400.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3
+        "category": 3,
+        "img": "./img/"
     },
     {
         "id": 12,
@@ -93,7 +104,8 @@
         "cantidad_en_stock": "66",
         "precio_lista": "9628.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3
+        "category": 3,
+        "img": "./img/"
     },
     {
         "id": 13,
@@ -101,7 +113,8 @@
         "cantidad_en_stock": "99",
         "precio_lista": "18024.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3
+        "category": 3,
+        "img": "./img/"
     },
     {
         "id": 14,
@@ -109,7 +122,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "5914.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3
+        "category": 3,
+        "img": "./img/"
     },
     {
         "id": 15,
@@ -117,7 +131,8 @@
         "cantidad_en_stock": "98",
         "precio_lista": "2054.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3
+        "category": 3,
+        "img": "./img/"
     },
     {
         "id": 16,
@@ -125,7 +140,8 @@
         "cantidad_en_stock": "29",
         "precio_lista": "3056.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3
+        "category": 3,
+        "img": "./img/"
     },
     {
         "id": 17,
@@ -133,7 +149,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "8640.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3
+        "category": 3,
+        "img": "./img/"
     },
     {
         "id": 18,
@@ -141,7 +158,8 @@
         "cantidad_en_stock": "98",
         "precio_lista": "5791.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3
+        "category": 3,
+        "img": "./img/budin_chocolate.jpg"
     },
     {
         "id": 19,
@@ -149,7 +167,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "1805.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4
+        "category": 4,
+        "img": "./img/"
     },
     {
         "id": 20,
@@ -157,7 +176,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "1100.05",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4
+        "category": 4,
+        "img": "./img/"
     },
     {
         "id": 21,
@@ -165,7 +185,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "30400.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4
+        "category": 4,
+        "img": "./img/"
     },
     {
         "id": 22,
@@ -173,7 +194,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "3134.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4
+        "category": 4,
+        "img": "./img/"
     },
     {
         "id": 23,
@@ -181,7 +203,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "1764.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4
+        "category": 4,
+        "img": "./img/"
     },
     {
         "id": 24,
@@ -189,7 +212,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "7030.9440000000004",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4
+        "category": 4,
+        "img": "./img/"
     },
     {
         "id": 25,
@@ -197,7 +221,8 @@
         "cantidad_en_stock": "96",
         "precio_lista": "5800.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/"
     },
     {
         "id": 26,
@@ -205,7 +230,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "9997.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/"
     },
     {
         "id": 27,
@@ -213,7 +239,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "7267.6800000000003",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/"
     },
     {
         "id": 28,
@@ -221,7 +248,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "4166.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/"
     },
     {
         "id": 29,
@@ -229,7 +257,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "4134.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/"
     },
     {
         "id": 30,
@@ -237,7 +266,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "20800.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/"
     },
     {
         "id": 31,
@@ -245,7 +275,8 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "4166.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/tarta_espinaca.jpg"
     },
     {
         "id": 32,
@@ -253,7 +284,8 @@
         "cantidad_en_stock": "99",
         "precio_lista": "4387.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/tarta_espinaca.jpg"
     },
     {
         "id": 33,
@@ -261,22 +293,25 @@
         "cantidad_en_stock": "1000",
         "precio_lista": "16150.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/"
     },
     {
-        "id": 33,
+        "id": 34,
         "name": "KEDELICIA",
         "cantidad_en_stock": "96",
         "precio_lista": "3167.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/"
     },
     {
-        "id": 34,
+        "id": 35,
         "name": "Torta Havannet (chica)",
         "cantidad_en_stock": "99",
         "precio_lista": "7176.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2
+        "category": 2,
+        "img": "./img/tarta_espinaca.jpg"
     }
 ]

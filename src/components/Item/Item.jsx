@@ -1,15 +1,16 @@
 /* eslint-disable react/prop-types */
 import { Card, CardActions, CardContent, CardMedia, Typography, Button } from '@mui/material';
+import { Link } from "react-router-dom";
 
 const Item = ({product}) => {
 
     return (
         <Card sx={{ maxWidth: 345 }}>
-            {/* <CardMedia
+            <CardMedia
                 sx={{ height: 140 }}
-                image="/img/contemplative-reptile.jpg"
-                title="green iguana"
-            /> */}
+                image={product.img}
+                title={product.name}
+            />
             <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                     {product.name}
@@ -19,8 +20,7 @@ const Item = ({product}) => {
                 </Typography>
             </CardContent>
             <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <Button size="small"><Link to={`/item/${product.id}`}>Ver Detalle</Link></Button>
             </CardActions>
         </Card>
     )
