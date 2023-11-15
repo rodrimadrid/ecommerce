@@ -4,8 +4,6 @@ export const fetchData = async () => {
     return json;
 }
 
-
-
 const getProducts = () => {
     return new Promise((resolve) => {
         setTimeout(() => {

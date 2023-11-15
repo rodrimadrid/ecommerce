@@ -4,14 +4,18 @@ import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import CartWidget from '../CartWidget/CartWidget';
 
+const cartOptions = ['Ver Carrito', 'Vaciar Carrito', 'Realizar Compra', 'Logout'];
+const categoryOptions = ['Ketostyle', 'Otros Productos', 'Chuchis'];
+
 const pages = [
   {name: 'Productos', link: '/'},
+  {name: 'Categorias', menu: categoryOptions},
 ];
-const cartOptions = ['Ver Carrito', 'Vaciar Carrito', 'Realizar Compra', 'Logout'];
 
 function Navbar() {
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElUser, setAnchorElUser] = useState(null);
+  const [anchorCategory, setAnchorCategory] = useState(null);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -19,13 +23,21 @@ function Navbar() {
   const handleOpenUserMenu = (event) => {
     setAnchorElUser(event.currentTarget);
   };
+  const handleOpenCategoryMenu = (event) => {
+    setAnchorCategory(!anchorCategory ? event.currentTarget : null);
+  };
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
+    setAnchorCategory(null);
   };
 
   const handleCloseUserMenu = () => {
     setAnchorElUser(null);
+  };
+
+  const handleCloseCategoryMenu = () => {
+    setAnchorCategory(null);
   };
 
   return (
@@ -107,6 +119,7 @@ function Navbar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page, i) => (
+              page.link ? 
               <Link     key={`${page}-${i}`} to={page.link}>
                 <Button
                   key={`${page}btn-${i}`}
@@ -114,7 +127,37 @@ function Navbar() {
                   sx={{ my: 2, color: 'white', display: 'block' }}
                 >{page.name}
                 </Button>
-              </Link>
+              </Link> :
+              <Button
+                key={`${page}btn-${i}`}
+                onClick={handleOpenCategoryMenu}
+
+                sx={{ my: 2, color: 'white', display: 'block' }}
+              >{page.name}
+                <Menu
+                  sx={{ mt: '45px' }}
+                  id="menu-appbar"
+                  anchorEl={anchorCategory}
+                  anchorOrigin={{
+                    vertical: 'top',
+                    horizontal: 'right',
+                  }}
+                  keepMounted
+                  transformOrigin={{
+                    vertical: 'top',
+                    horizontal: 'right',
+                  }}
+                  open={Boolean(anchorCategory)}
+                  onClose={handleCloseCategoryMenu}
+                >
+                {page.menu.map((setting) => (
+                  <MenuItem key={setting} onClick={handleCloseCategoryMenu}>
+                    <Link to={`/${setting.toLowerCase()}`}  >{setting}</Link >
+                  </MenuItem>
+                ))}
+                </Menu>
+
+              </Button>
             ))}
           </Box>
 

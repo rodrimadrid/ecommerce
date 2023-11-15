@@ -3,315 +3,350 @@
         "id": 1,
         "name": "Xilitol en polvo 500gr",
         "cantidad_en_stock": "25",
+        "cantidad": 0,
         "precio_lista": "6000.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/xilitol_polvo.jpg"
+        "category": "ketostyle",
+        "img": "/img/xilitol_polvo.jpg"
     },
     {
         "id": 2,
         "name": "Chocolate 72% cacao 200gr",
         "cantidad_en_stock": "33",
+        "cantidad": 0,
         "precio_lista": "3280.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/chocolate72%.jpg"
+        "category": "ketostyle",
+        "img": "/img/chocolate72%.jpg"
     },
     {
         "id": 3,
         "name": "Chocolate 80% cacao 200gr",
         "cantidad_en_stock": "60",
+        "cantidad": 0,
         "precio_lista": "3440.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/chocolate72%.jpg"
+        "category": "ketostyle",
+        "img": "/img/chocolate72%.jpg"
     },
     {
         "id": 4,
         "name": "Cookies Chocolate",
         "cantidad_en_stock": "87",
+        "cantidad": 0,
         "precio_lista": "5515.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/coockies_chocolate.jpg"
+        "category": "ketostyle",
+        "img": "/img/coockies_chocolate.jpg"
     },
     {
         "id": 5,
         "name": "DESAYUNOKETO",
         "cantidad_en_stock": "83",
+        "cantidad": 0,
         "precio_lista": "3000.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/coockies_chocolate.jpg"
+        "category": "ketostyle",
+        "img": "/img/coockies_chocolate.jpg"
     },
     {
         "id": 6,
         "name": "Pan de Molde Mix Integral",
         "cantidad_en_stock": "95",
+        "cantidad": 0,
         "precio_lista": "8286.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/pan_molde.jpg"
+        "category": "ketostyle",
+        "img": "/img/pan_molde.jpg"
     },
     {
         "id": 7,
         "name": "Pancitos (pack x8)",
         "cantidad_en_stock": "99",
+        "cantidad": 0,
         "precio_lista": "8693.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/pan_molde.jpg"
+        "category": "ketostyle",
+        "img": "/img/pan_molde.jpg"
     },
     {
         "id": 8,
         "name": "CHOCOBROWNIE KETO",
         "cantidad_en_stock": "98",
+        "cantidad": 0,
         "precio_lista": "3217.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3,
-        "img": "./img/"
+        "category": "otros productos",
+        "img": "/img/"
     },
     {
         "id": 9,
         "name": "Harina de coco Ketostyle 500g",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "846.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3,
-        "img": "./img/"
+        "category": "otros productos",
+        "img": "/img/"
     },
     {
         "id": 10,
         "name": "Budín de Manzana Verde",
         "cantidad_en_stock": "98",
+        "cantidad": 0,
         "precio_lista": "4969.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3,
-        "img": "./img/budin_manzana.jpg"
+        "category": "otros productos",
+        "img": "/img/budin_manzana.jpg"
     },
     {
         "id": 11,
         "name": "Harina de almendras sin piel - 500gr",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "10400.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3,
-        "img": "./img/"
+        "category": "otros productos",
+        "img": "/img/"
     },
     {
         "id": 12,
         "name": "Granola keto 500g",
         "cantidad_en_stock": "66",
+        "cantidad": 0,
         "precio_lista": "9628.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3,
-        "img": "./img/"
+        "category": "otros productos",
+        "img": "/img/"
     },
     {
         "id": 13,
         "name": "Torta Mousse (grande)",
         "cantidad_en_stock": "99",
+        "cantidad": 0,
         "precio_lista": "18024.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3,
-        "img": "./img/"
+        "category": "otros productos",
+        "img": "/img/"
     },
     {
         "id": 14,
         "name": "Granola keto 250GR",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "5914.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3,
-        "img": "./img/"
+        "category": "otros productos",
+        "img": "/img/"
     },
     {
         "id": 15,
         "name": "Barra de Frutos Secos y Semillas (lowcarb)",
         "cantidad_en_stock": "98",
+        "cantidad": 0,
         "precio_lista": "2054.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3,
-        "img": "./img/"
+        "category": "otros productos",
+        "img": "/img/"
     },
     {
         "id": 16,
         "name": "Kebomb\u00f3n",
         "cantidad_en_stock": "29",
+        "cantidad": 0,
         "precio_lista": "3056.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3,
-        "img": "./img/"
+        "category": "otros productos",
+        "img": "/img/"
     },
     {
         "id": 17,
         "name": "Pan hamburguesa (pack x4)",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "8640.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3,
-        "img": "./img/"
+        "category": "otros productos",
+        "img": "/img/"
     },
     {
         "id": 18,
         "name": "Buddín de Chocolate",
         "cantidad_en_stock": "98",
+        "cantidad": 0,
         "precio_lista": "5791.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 3,
-        "img": "./img/budin_chocolate.jpg"
+        "category": "otros productos",
+        "img": "/img/budin_chocolate.jpg"
     },
     {
         "id": 19,
         "name": "Pan dulce keto",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "1805.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4,
-        "img": "./img/"
+        "category": "chuchis",
+        "img": "/img/"
     },
     {
         "id": 20,
         "name": "ROSCA DE PASCUA",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "1100.05",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4,
-        "img": "./img/"
+        "category": "chuchis",
+        "img": "/img/"
     },
     {
         "id": 21,
         "name": "Psyllium + lino molido 1kg",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "30400.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4,
-        "img": "./img/"
+        "category": "chuchis",
+        "img": "/img/"
     },
     {
         "id": 22,
         "name": "Brownie",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "3134.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4,
-        "img": "./img/"
+        "category": "chuchis",
+        "img": "/img/"
     },
     {
         "id": 23,
         "name": "Eritritol 200g Ketostyle",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "1764.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4,
-        "img": "./img/"
+        "category": "chuchis",
+        "img": "/img/"
     },
     {
         "id": 24,
         "name": "PAN DULCE CHOCOLATE 900GR",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "7030.9440000000004",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 4,
-        "img": "./img/"
+        "category": "chuchis",
+        "img": "/img/"
     },
     {
         "id": 25,
         "name": "Crackers",
         "cantidad_en_stock": "96",
+        "cantidad": 0,
         "precio_lista": "5800.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/"
+        "category": "ketostyle",
+        "img": "/img/"
     },
     {
         "id": 26,
         "name": "Torta Mousse (chica)",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "9997.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/"
+        "category": "ketostyle",
+        "img": "/img/"
     },
     {
         "id": 27,
         "name": "PAN DULCE CON FRUTOS Y GLASEADO 950GR",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "7267.6800000000003",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/"
+        "category": "ketostyle",
+        "img": "/img/"
     },
     {
         "id": 28,
         "name": "Tarta individual - Brocoli",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "4166.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/"
+        "category": "ketostyle",
+        "img": "/img/"
     },
     {
         "id": 29,
         "name": "Tarta individual - Jam\u00f3n y queso",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "4134.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/"
+        "category": "ketostyle",
+        "img": "/img/"
     },
     {
         "id": 30,
         "name": "Harina de almendras sin piel - 1kg",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "20800.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/"
+        "category": "ketostyle",
+        "img": "/img/"
     },
     {
         "id": 31,
         "name": "Tarta individual - Espinaca",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "4166.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/tarta_espinaca.jpg"
+        "category": "ketostyle",
+        "img": "/img/tarta_espinaca.jpg"
     },
     {
         "id": 32,
         "name": "Tarta individual - Panceta y champi\u00f1on",
         "cantidad_en_stock": "99",
+        "cantidad": 0,
         "precio_lista": "4387.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/tarta_espinaca.jpg"
+        "category": "ketostyle",
+        "img": "/img/tarta_espinaca.jpg"
     },
     {
         "id": 33,
         "name": "Psyllium + lino molido 500gr",
         "cantidad_en_stock": "1000",
+        "cantidad": 0,
         "precio_lista": "16150.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/"
+        "category": "ketostyle",
+        "img": "/img/"
     },
     {
         "id": 34,
         "name": "KEDELICIA",
         "cantidad_en_stock": "96",
+        "cantidad": 0,
         "precio_lista": "3167.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/"
+        "category": "ketostyle",
+        "img": "/img/"
     },
     {
         "id": 35,
         "name": "Torta Havannet (chica)",
         "cantidad_en_stock": "99",
+        "cantidad": 0,
         "precio_lista": "7176.0",
         "detail": "Producto creado a base de bellos deseos y buenas intensiones.",
-        "category": 2,
-        "img": "./img/tarta_espinaca.jpg"
+        "category": "ketostyle",
+        "img": "/img/tarta_espinaca.jpg"
     }
 ]
