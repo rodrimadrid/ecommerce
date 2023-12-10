@@ -1,20 +1,27 @@
 import  { useState, useEffect } from 'react';
 import ItemDetail from '../ItemDetail/ItemDetail';
 import { useParams } from 'react-router-dom';
-import { fetchData } from '../../utils/fetch';
 import { Container, Grid, CircularProgress } from '@mui/material';
+import { app } from '../../services/firebase';
+import { getFirestore, getDoc, doc  } from 'firebase/firestore';
 
 const ItemDetailContainer = () => {
     const [product, setProduct] = useState(null)
+    const [error, setError] = useState(false)
     const {idProduct} = useParams()
 
     useEffect(()=>{
-        fetchData()
-            .then(data => {
-                const foundProduct = data.find((item)=> item.id == idProduct) 
-                setProduct(foundProduct)
-            })
-            .catch((error)=>console.error(error))
+        const db = getFirestore(app);
+        const docRef = doc(db, "products", idProduct);
+        getDoc(docRef)
+        .then(docSnap => {                
+                if (docSnap.exists()) {
+                    setProduct({id: idProduct, ...docSnap.data()});
+                    setError(false);
+                } else {
+                    setError(true);
+                }
+            });
     },[idProduct])
 
     return (
@@ -26,12 +33,15 @@ const ItemDetailContainer = () => {
                     {
                     product ? 
                         <ItemDetail product={product}/>
-                    : 
+                    :
+                        error ?
+                        <p>Hubo un inconveniente al buscar el artículo.</p>
+                        :
                         <CircularProgress />
                     }
                 </Grid>
                 
-            </Container>
+            </Container>    
             }
         </>
     );

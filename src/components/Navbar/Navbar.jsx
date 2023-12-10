@@ -1,21 +1,47 @@
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import {Box,AppBar, Toolbar, IconButton, Typography, Menu, Container, Button, MenuItem} from '@mui/material';
 import { Link } from "react-router-dom";
 import MenuIcon from '@mui/icons-material/Menu';
 import CartWidget from '../CartWidget/CartWidget';
-
-const cartOptions = ['Ver Carrito', 'Vaciar Carrito', 'Realizar Compra', 'Logout'];
-const categoryOptions = ['Ketostyle', 'Otros Productos', 'Chuchis'];
-
-const pages = [
-  {name: 'Productos', link: '/'},
-  {name: 'Categorias', menu: categoryOptions},
-];
+import { CartContext } from '../../context/CartContext';
+import { useContext } from 'react';
 
 function Navbar() {
+  const { dropCart, cart } = useContext(CartContext);
+
   const [anchorElNav, setAnchorElNav] = useState(null);
   const [anchorElUser, setAnchorElUser] = useState(null);
   const [anchorCategory, setAnchorCategory] = useState(null);
+  const [cartOptions, setCartOptions] = useState([
+    {name: 'Carrito', link: '/Cart'},
+    {name: 'Vaciar Carrito', action: dropCart}
+  ]);
+  
+  const categoryOptions = ['Ketostyle', 'Otros Productos', 'Chuchis'];
+
+  const pages = [
+    {name: 'Productos', link: '/'},
+    {name: 'Categorias', menu: categoryOptions},
+  ];
+  
+
+
+  useEffect(() => {
+    if(cart.length > 0 && cartOptions.length == 2){
+      setCartOptions([
+        {name: 'Carrito', link: '/Cart'},
+        {name: 'Vaciar Carrito', action: dropCart},
+        {name: 'Realizar Compra', link: '/Compra'}
+      ])
+    }else{
+      setCartOptions([
+        {name: 'Carrito', link: '/Cart'},
+        {name: 'Vaciar Carrito', action: dropCart}
+      ])
+    }
+  }, [cart])
+  
+
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -179,9 +205,9 @@ function Navbar() {
               open={Boolean(anchorElUser)}
               onClose={handleCloseUserMenu}
             >
-              {cartOptions.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
+              {cartOptions.map((setting, key) => (
+                <MenuItem key={key} onClick={handleCloseUserMenu}>
+                  <Link to={setting.link || '#'} onClick={setting.action || null}><Typography textAlign="center">{setting.name}</Typography></Link>
                 </MenuItem>
               ))}
             </Menu>

@@ -1,9 +1,8 @@
 /* eslint-disable react/prop-types */
-
-import { Box, Grid, Typography, TextField} from '@mui/material';
+import Counter from '../Counter/Counter';
+import { Box, Grid, Typography} from '@mui/material';
 
 const ItemDetail = ({product}) => {
-
     return (
         <>
             <Grid item xs={6}>
@@ -11,7 +10,7 @@ const ItemDetail = ({product}) => {
                 component="img"
                 sx={{
                     height: 400,
-                    width: 250}}
+                    width: '80%'}}
                     src={product.img}
                     alt={product.name}
                 />
@@ -41,22 +40,14 @@ const ItemDetail = ({product}) => {
                         </Grid>
                         <Grid item xs={8} sx={{ display: 'flex' }}>
                             <div>Precio: $ </div>
-                            <div> {product.precio_lista} </div>
+                            <div> {product.price} </div>
                         </Grid>
                         <Grid item xs={8} sx={{ display: 'flex' }}>
                             <div>Stock: </div>
-                            <div> {product.cantidad_en_stock} </div>
+                            <div> {product.stock} </div>
                         </Grid>
-                        <Grid item xs={3} sx={{ display: 'flex' }}>
-                            <TextField
-                            id="outlined-number"
-                            label="Number"
-                            type="number"
-                            defaultValue={product.cantidad}
-                            InputLabelProps={{
-                                shrink: true,
-                            }}
-                            />
+                        <Grid item  xs={7} sx={{ display: 'flex', alignItems: 'center'}}>
+                            <Counter product={product}/>
                         </Grid>
                     </Grid>
                 </Box>
